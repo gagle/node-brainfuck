@@ -18,7 +18,6 @@ integer, `2^31-1 = 4,294,967,295 cells`.
 - Each cell stores an IEEE 754 double-precision integer (64 bits), so negative numbers and UTF8 multibyte characters are allowed.
 - It recognizes the usual tokens, but adds the de-facto `#` for debugging purposes. Prints a json object to the stdout, something similar to this: `{"pointer":-1,"tape":{"p":[97,98,99,0],"n":[null,0]}}`.
 - It doesn't recognize the token `!`. There's a cli option to enter an input string.
-- Throws syntax errors showing the line and column where it fails. For debugging purposes.
 
 Tokens:
 
