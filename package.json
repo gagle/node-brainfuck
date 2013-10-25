@@ -13,6 +13,8 @@
 		"argp": "*"
 	},
 	"preferGlobal": "true",
-	"bin": "bin/brainfuck.js",
+	"bin": {
+		"brainfuck": "bin/brainfuck.js"
+	},
 	"main": "lib"
 }
