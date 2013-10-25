@@ -19,14 +19,8 @@ var argv = require ("argp")
 			if (!argv.file) fail ("An input file is required");
 		})
 		.body ()
-				.option ({ long: "stdin", metavar: "STRING",
+				.option ({ short: "i", long: "input", metavar: "STRING",
 						description: "STRING to read during the program execution" })
-				.option ({ short: "f", long: "finish", description: "Finish the " +
-						"program execution when all the --stdin STRING has been consumed " +
-						"and a new read operation it's done. The flag is ignored if the " +
-						"--stdin option is not used. This is typically used when the " +
-						"program loops indefinitely reading the --stdin STRING without " +
-						"knowning its length" })
 				.help ()
 		.argv ();
 
@@ -40,12 +34,12 @@ fs.readFile (argv.file, { encoding: "utf8" }, function (err, data){
 					return console.error ("Error: " +
 							(error.code !== "ENOENT" ? error : err).message);
 				}
-				brainfuck (data, argv.stdin, { finishOnInputConsumed: argv.finish });
+				brainfuck (data, argv.input);
 			});
 		}else{
 			console.error ("Error: " + err.message);
 		}
 		return;
 	}
-	brainfuck (data, argv.stdin, { finishOnInputConsumed: argv.finish });
+	brainfuck (data, argv.input);
 });

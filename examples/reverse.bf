@@ -1,0 +1,3 @@
+$ brainfuck reverse -i abc
+
+,[>,]<[.<]
