@@ -5,14 +5,14 @@ _Node.js project_
 
 #### Interpreter for the Brainfuck esoteric language ####
 
-Version: 0.0.2
+Version: 0.0.3
 
 [Wikipedia page](http://en.wikipedia.org/wiki/Brainfuck).
 
 The following features are supported:
 
 - Almost unlimited number of cells. The ECMA specification for the maximum array length is an unsigned 32-bit
-integer, `2^31-1 = 4,294,967,295 cells`.  
+integer, `2^32-1 = 4,294,967,295 cells`.  
   Negative pointer values are also valid, but they are stored in a separate tape. This means that the total tape length is `2*(2^32-1) = 8.589.934.590 cells`.  
   The state of the program when the pointer is outside these valid ranges is undefined.
 - Each cell stores an IEEE 754 double-precision integer (64 bits), so negative numbers and UTF8 multibyte characters are allowed.
