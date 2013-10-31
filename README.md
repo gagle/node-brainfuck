@@ -68,7 +68,7 @@ npm install -g brainless
 
 #### Usage ####
 
-If the program needs to read an input value but no string is provided it prompts a cli message asking for a character:
+If the program needs to read an input value but no string is provided, it prompts a cli message asking for a character:
 
 ```
 $ brainfuck examples/rot13
@@ -86,7 +86,6 @@ __CLI__
 
 ```
 $ brainfuck -h
-
 Usage: brainfuck <input_file> [options]
 
 Interpreter for the Brainfuck esoteric language
@@ -108,6 +107,8 @@ cba
 Note: If the file doesn't exist and doesn't have an extension, it tries to read the same file with the extension `.bf`.
 
 __Programmatically__
+
+___module_(code[, input]) : undefined__
 
 ```javascript
 var bf = require ("brainless");
