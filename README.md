@@ -24,19 +24,19 @@ Tokens:
 <table>
   <tr>
     <td>&gt;</td>
-    <td>Increment the pointer.</td>
+    <td>Increments the pointer.</td>
   </tr>
   <tr>
     <td>&lt;</td>
-    <td>Decrement the pointer.</td>
+    <td>Decrements the pointer.</td>
   </tr>
   <tr>
     <td>+</td>
-    <td>Increment the cell value where points the pointer.</td>
+    <td>Increments the cell value where points the pointer.</td>
   </tr>
   <tr>
     <td>-</td>
-    <td>Decrement the cell value where points the pointer.</td>
+    <td>Decrements the cell value where points the pointer.</td>
   </tr>
   <tr>
     <td>.</td>
