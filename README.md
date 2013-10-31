@@ -48,11 +48,11 @@ Tokens:
   </tr>
   <tr>
     <td>[</td>
-    <td>If the value in the cell where points the pointer is 0 it jumps to the ] token, otherwise it executes the code inside [ and ].</td>
+    <td>If the value in the cell where points the pointer is 0, it jumps to the ] token, otherwise it executes the code inside [ and ].</td>
   </tr>
   <tr>
     <td>]</td>
-    <td>If the value in the cell where points the pointer is not 0 it jumps back again to the [ token, otherwise it continues with the program execution.</td>
+    <td>If the value in the cell where points the pointer is not 0, it jumps back again to the [ token, otherwise it continues with the program execution.</td>
   </tr>
   <tr>
     <td>#</td>
