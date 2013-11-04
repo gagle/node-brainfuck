@@ -80,7 +80,7 @@ o
 p
 ```
 
-Send a SIGINT (ctrl+c) signal to kill the process.
+Send a SIGINT signal (ctrl+c) to kill the process.
 
 __CLI__
 
