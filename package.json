@@ -8,7 +8,6 @@
 	"engines": {
 		"node": ">=0.10"
 	},
-	"license": "MIT",
 	"dependencies": {
 		"argp": "*"
 	},
@@ -16,5 +15,6 @@
 	"bin": {
 		"brainfuck": "bin/brainfuck.js"
 	},
+	"license": "MIT",
 	"main": "lib"
 }
