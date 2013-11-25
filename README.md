@@ -5,7 +5,7 @@ _Node.js project_
 
 #### Interpreter for the Brainfuck esoteric language ####
 
-Version: 0.0.3
+Version: 0.0.4
 
 [Wikipedia page](http://en.wikipedia.org/wiki/Brainfuck).
 

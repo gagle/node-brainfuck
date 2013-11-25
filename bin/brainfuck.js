@@ -15,8 +15,8 @@ var argv = require ("argp")
 			argv.file = argument;
 			ignore ();
 		})
-		.on ("end", function (argv, printHelp, printUsage, printVersion, fail){
-			if (!argv.file) fail ("An input file is required");
+		.on ("end", function (argv, fns){
+			if (!argv.file) fns.fail ("An input file is required");
 		})
 		.body ()
 				.option ({ short: "i", long: "input", metavar: "STRING",
