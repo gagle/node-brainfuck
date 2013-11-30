@@ -11,12 +11,12 @@ var argv = require ("argp")
 		.readPackage (__dirname + "/../package.json")
 		.usages (["brainfuck <input_file> [options]"])
 		.on ("argument", function (argv, argument, ignore){
-			if (argv.file) this.fail ("Too many arguments");
+			if (argv.file) this.fail ("Too many arguments.");
 			argv.file = argument;
 			ignore ();
 		})
 		.on ("end", function (argv, fns){
-			if (!argv.file) fns.fail ("An input file is required");
+			if (!argv.file) fns.fail ("An input file is required.");
 		})
 		.body ()
 				.option ({ short: "i", long: "input", metavar: "STRING",

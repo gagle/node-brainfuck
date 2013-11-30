@@ -5,7 +5,7 @@ _Node.js project_
 
 #### Interpreter for the Brainfuck esoteric language ####
 
-Version: 0.0.4
+[![NPM version](https://badge.fury.io/js/brainless.png)](http://badge.fury.io/js/brainless "Fury Version Badge")
 
 [Wikipedia page](http://en.wikipedia.org/wiki/Brainfuck).
 
