@@ -4,19 +4,20 @@
 
 var fs = require ("fs");
 var path = require ("path");
+var argp = require ("argp");
 var brainfuck = require ("../lib");
 
-var argv = require ("argp")
+var argv = argp.createParser ({ once: true })
 		.allowUndefinedArguments ()
 		.readPackage (__dirname + "/../package.json")
-		.usages (["brainfuck <input_file> [options]"])
+		.usages (["brainfuck [options] <input_file>"])
 		.on ("argument", function (argv, argument, ignore){
 			if (argv.file) this.fail ("Too many arguments.");
 			argv.file = argument;
 			ignore ();
 		})
-		.on ("end", function (argv, fns){
-			if (!argv.file) fns.fail ("An input file is required.");
+		.on ("end", function (argv){
+			if (!argv.file) this.fail ("An input file is required");
 		})
 		.body ()
 				.option ({ short: "i", long: "input", metavar: "STRING",

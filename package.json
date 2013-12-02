@@ -1,6 +1,6 @@
 {
 	"name": "brainless",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Interpreter for the Brainfuck esoteric language",
 	"keywords": ["brainfuck", "interpreter"],
 	"author": "Gabriel Llamas <gagle@outlook.com>",
@@ -9,7 +9,7 @@
 		"node": ">=0.10"
 	},
 	"dependencies": {
-		"argp": "*"
+		"argp": "1.x.x"
 	},
 	"preferGlobal": "true",
 	"bin": {

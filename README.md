@@ -1,11 +1,12 @@
 brainfuck
 =========
 
-_Node.js project_
-
 #### Interpreter for the Brainfuck esoteric language ####
 
 [![NPM version](https://badge.fury.io/js/brainless.png)](http://badge.fury.io/js/brainless "Fury Version Badge")
+[![Dependency Status](https://david-dm.org/gagle/node-brainfuck.png)](https://david-dm.org/gagle/node-brainfuck "David Dependency Manager Badge")
+
+[![NPM installation](https://nodei.co/npm/brainless.png?mini=true)](https://nodei.co/npm/brainless "NodeICO Badge")
 
 [Wikipedia page](http://en.wikipedia.org/wiki/Brainfuck).
 
