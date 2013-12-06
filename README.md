@@ -87,7 +87,7 @@ __CLI__
 
 ```
 $ brainfuck -h
-Usage: brainfuck <input_file> [options]
+Usage: brainfuck [options] <input_file>
 
 Interpreter for the Brainfuck esoteric language
 
