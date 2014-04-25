@@ -61,12 +61,6 @@ Tokens:
   </tr>
 </table>
 
-#### Installation ####
-
-```
-npm install -g brainless
-```
-
 #### Usage ####
 
 If the program needs to read an input value but no string is provided, it prompts a cli message asking for a character:
