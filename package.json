@@ -1,15 +1,18 @@
 {
   "name": "brainless",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Interpreter for the Brainfuck esoteric language",
-  "keywords": ["brainfuck", "interpreter"],
+  "keywords": [
+    "brainfuck",
+    "interpreter"
+  ],
   "author": "Gabriel Llamas <gagle@outlook.com>",
   "repository": "git://github.com/gagle/node-brainfuck.git",
   "engines": {
     "node": ">=0.10"
   },
   "dependencies": {
-    "argp": "1.0.x"
+    "argp": "^1.0.4"
   },
   "preferGlobal": "true",
   "bin": {

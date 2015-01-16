@@ -1,12 +1,10 @@
-brainfuck
+brainless
 =========
 
 #### Interpreter for the Brainfuck esoteric language ####
 
-[![NPM version](https://badge.fury.io/js/brainless.png)](http://badge.fury.io/js/brainless "Fury Version Badge")
-[![Dependency Status](https://david-dm.org/gagle/node-brainfuck.png)](https://david-dm.org/gagle/node-brainfuck "David Dependency Manager Badge")
-
-[![NPM installation](https://nodei.co/npm/brainless.png?mini=true)](https://nodei.co/npm/brainless "NodeICO Badge")
+[![npm][npm-image]][npm-url]
+[![david][david-image]][david-url]
 
 [Wikipedia page](http://en.wikipedia.org/wiki/Brainfuck).
 
@@ -106,7 +104,12 @@ __Programmatically__
 ___module_(code[, input]) : undefined__
 
 ```javascript
-var bf = require ("brainless");
-bf (",[>,]<[.<]", "abc");
-//cba
+var bf = require('brainless');
+bf(',[>,]<[.<]', 'abc');
+// cba
 ```
+
+[npm-image]: http://img.shields.io/npm/v/bole-mongodb.svg
+[npm-url]: https://npmjs.org/package/bole-mongodb
+[david-image]: https://img.shields.io/david/gagle/node-brainless.svg
+[david-url]: https://david-dm.org/gagle/node-brainless
