@@ -101,7 +101,8 @@ Note: If the file doesn't exist and doesn't have an extension, it tries to read 
 
 __Programmatically__
 
-___module_(code[, input]) : undefined__
+___module_(code[, input]) : undefined__  
+Executes the given code.
 
 ```javascript
 var bf = require('brainless');
