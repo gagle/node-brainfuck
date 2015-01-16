@@ -109,7 +109,7 @@ bf(',[>,]<[.<]', 'abc');
 // cba
 ```
 
-[npm-image]: http://img.shields.io/npm/v/bole-mongodb.svg?flat=true
+[npm-image]: http://img.shields.io/npm/v/bole-mongodb.svg?style=flat
 [npm-url]: https://npmjs.org/package/bole-mongodb
-[david-image]: https://img.shields.io/david/gagle/node-brainless.svg?flat=true
+[david-image]: https://img.shields.io/david/gagle/node-brainless.svg?style=flat
 [david-url]: https://david-dm.org/gagle/node-brainless
